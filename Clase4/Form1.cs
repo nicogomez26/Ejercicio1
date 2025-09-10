@@ -62,6 +62,13 @@ namespace Clase4
             VerGrilla();
             mostrarRegistradas();
             mostrarPromedio();
+            MostrarMinYMax();
+        }
+
+        public void MostrarMinYMax()
+        {
+            edadMinTxt.Text = personaBll.Min().ToString();
+            edadMaxTxt.Text = personaBll.MAX().ToString();
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
@@ -92,6 +99,7 @@ namespace Clase4
 
             mostrarRegistradas();
             mostrarPromedio();
+            MostrarMinYMax();
 
 
         }
@@ -118,6 +126,11 @@ namespace Clase4
                 VerGrilla();
             }
             else { MessageBox.Show("Error"); }
+
+
+            mostrarRegistradas();
+            mostrarPromedio();
+            MostrarMinYMax();
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
@@ -136,6 +149,10 @@ namespace Clase4
             {
                 MessageBox.Show("Error");
             }
+
+            mostrarRegistradas();
+            mostrarPromedio();
+            MostrarMinYMax();
         }
 
         BE.Persona tmp;

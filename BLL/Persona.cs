@@ -60,5 +60,23 @@ namespace BLL
             return fa;
         }
 
+        public int Min()
+        {
+            int fa = 0;
+
+            fa = mapper.CalcularMin();
+
+            return fa;
+        }
+
+        public int MAX()
+        {
+            int fa = 0;
+
+            fa = mapper.CalcularMAX();
+
+            return fa;
+        }
+
     }
 }
