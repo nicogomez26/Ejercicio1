@@ -92,6 +92,22 @@ namespace DAL
 
         }
 
+        public double CalcularProm()
+        {
+            double promedio = 0.0;
+
+            DataTable tabla = acc.Leer("CalcularPromRegistradas", null);
+
+            if (tabla.Rows.Count > 0)
+            {
+                promedio = Convert.ToDouble(tabla.Rows[0][0]);
+
+            }
+
+            return promedio;
+
+        }
+
 
     }
 }

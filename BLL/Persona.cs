@@ -51,5 +51,14 @@ namespace BLL
             return fa;
         }
 
+        public double Promedio()
+        {
+            double fa = 0.0;
+
+            fa = mapper.CalcularProm();
+
+            return fa;
+        }
+
     }
 }
