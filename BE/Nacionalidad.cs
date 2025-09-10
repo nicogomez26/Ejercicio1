@@ -24,5 +24,22 @@ namespace BE
 			set { nombre_nacionalidad = value; }
 		}
 
+		private int cantPersonas;
+
+		public int CantPersonas
+		{
+			get { return cantPersonas; }
+			set { cantPersonas = value; }
+		}
+
+		private double promEdad;
+
+		public double PromEdad
+		{
+			get { return promEdad; }
+			set { promEdad = value; }
+		}
+
+
 	}
 }

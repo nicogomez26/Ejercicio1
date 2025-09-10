@@ -42,7 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Acceso.cs" />
+    <Compile Include="Mp_Nacionalidad.cs" />
     <Compile Include="Mp_Persona.cs" />
+    <Compile Include="Mp_Profesion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

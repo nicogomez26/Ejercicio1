@@ -22,10 +22,30 @@ namespace Clase4
         BLL.Persona personaBll = new BLL.Persona();
 
 
+        BE.Nacionalidad nacionalidad;
+
+        BLL.Nacionalidad nacionalidadBll = new BLL.Nacionalidad();
+
+        BE.Profesion profesion;
+
+        BLL.Profesion profesionBll = new BLL.Profesion();
+
         public void VerGrilla()
         {
             grilla.DataSource = null;
             grilla.DataSource = personaBll.ListarPersona();
+        }
+
+        public void VerGrillaNac()
+        {
+            grilla.DataSource = null;
+            grilla.DataSource = nacionalidadBll.ListarNacionalidad();
+        }
+
+        public void VerGrillaPro()
+        {
+            grilla.DataSource = null;
+            grilla.DataSource = profesionBll.ListarProfesion();
         }
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -114,6 +134,37 @@ namespace Clase4
             sexoCmb.Text = tmp.Sexo.ToString();
             nacionalidadCmb.Text = tmp.IdNacionalidad.ToString();
             profesionCmb.Text = tmp.IdProfesion.ToString();
+        }
+
+        private void agrNacBtn_Click(object sender, EventArgs e)
+        {
+
+            int fa = 0;
+
+            nacionalidad = new BE.Nacionalidad();
+
+            nacionalidad.IdNacionalidad = int.Parse(nroNacTxt.Text);
+            nacionalidad.Nombre_nacionalidad = nomNacTxt.Text;
+            nacionalidad.CantPersonas = 0;
+            nacionalidad.PromEdad = 0.0;
+
+            fa = nacionalidadBll.AgregarNacionalidad(nacionalidad);
+
+            if (fa != 0)
+            {
+                MessageBox.Show("Se agregó");
+                VerGrillaNac();
+            }
+            else
+            {
+                MessageBox.Show("Error");
+            }
+
+        }
+
+        private void editNacBtn_Click(object sender, EventArgs e)
+        {
+            VerGrillaNac();
         }
     }
 }
