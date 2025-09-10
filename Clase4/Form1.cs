@@ -78,6 +78,9 @@ namespace Clase4
                 MessageBox.Show("Error");
             }
 
+            cantPersonaTxt.Text = personaBll.Contar().ToString();
+
+
         }
 
         private void btnEditar_Click(object sender, EventArgs e)

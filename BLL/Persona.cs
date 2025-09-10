@@ -42,6 +42,14 @@ namespace BLL
             return personas;
         }
 
+        public int Contar()
+        {
+            int fa = 0;
+
+            fa = mapper.Contar();
+
+            return fa;
+        }
 
     }
 }
