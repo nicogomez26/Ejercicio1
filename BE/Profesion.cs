@@ -6,7 +6,26 @@ using System.Threading.Tasks;
 
 namespace BE
 {
-    internal class Profesion
+    public class Profesion
     {
-    }
+		private int idProfesion;
+
+		public int IdProfesion
+		{
+			get { return idProfesion; }
+			set { idProfesion = value; }
+		}
+
+		private string nombre_profesion;
+
+		public string Nombre_profesion
+		{
+			get { return nombre_profesion; }
+			set { nombre_profesion = value; }
+		}
+
+
+
+
+	}
 }

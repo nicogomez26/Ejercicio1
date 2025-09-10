@@ -16,7 +16,7 @@ namespace DAL
 
         public void Conectar()
         {
-            cn.ConnectionString = @"Data Source=.;Initial Catalog=Facultad;User ID=sa";
+            cn.ConnectionString = @"Data Source=.;Initial Catalog=Facultad;Integrated Security=True";
             cn.Open();
         }
 
@@ -46,6 +46,28 @@ namespace DAL
             Desconectar();
 
             return fa;
+        }
+
+        public DataTable Leer(string sp, SqlParameter[] parametro)
+        {
+            DataTable dt = new DataTable();
+            SqlDataAdapter adaptador = new SqlDataAdapter();
+            Conectar();
+            cmd.Connection = cn;
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.CommandText = sp;
+
+            if (parametro != null)
+            {
+                cmd.ExecuteReader();
+            }
+
+            adaptador.SelectCommand = cmd;
+            adaptador.Fill(dt);
+
+            Desconectar();
+            return dt;
+
         }
 
     }

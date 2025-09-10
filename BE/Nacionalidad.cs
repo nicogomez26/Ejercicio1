@@ -6,7 +6,23 @@ using System.Threading.Tasks;
 
 namespace BE
 {
-    internal class Nacionalidad
+    public class Nacionalidad
     {
-    }
+		private int idnacionalidad;
+
+		public int IdNacionalidad
+		{
+			get { return idnacionalidad; }
+			set { idnacionalidad = value; }
+		}
+
+		private string nombre_nacionalidad;
+
+		public string Nombre_nacionalidad
+		{
+			get { return nombre_nacionalidad; }
+			set { nombre_nacionalidad = value; }
+		}
+
+	}
 }
