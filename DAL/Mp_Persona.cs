@@ -23,7 +23,7 @@ namespace DAL
             parametro[4] = new SqlParameter("@sexo", persona.Sexo);
             parametro[5] = new SqlParameter("@idNacionalidad", persona.IdNacionalidad);
             parametro[6] = new SqlParameter("@idProfesion", persona.IdProfesion);
-            fa = acc.Escribir("AgregarPersona", parametro);
+            fa = acc.Escribir("Agreg 7arPersona", parametro);
 
             return fa;
         }
@@ -92,6 +92,51 @@ namespace DAL
 
         }
 
+        public double CalcularProm()
+        {
+            double promedio = 0.0;
+
+            DataTable tabla = acc.Leer("CalcularPromRegistradas", null);
+
+            if (tabla.Rows.Count > 0)
+            {
+                promedio = Convert.ToDouble(tabla.Rows[0][0]);
+
+            }
+
+            return promedio;
+
+        }
+
+        public int CalcularMin()
+        {
+            int Min = 0;
+
+            DataTable tabla = acc.Leer("CalcularMinEdad", null);
+
+            if (tabla.Rows.Count > 0)
+            {
+                Min = Convert.ToInt32(tabla.Rows[0][0]);
+
+            }
+
+            return Min;
+        }
+
+        public int CalcularMAX()
+        {
+            int MAX = 0;
+
+            DataTable tabla = acc.Leer("CalcularMAXEdad", null);
+
+            if (tabla.Rows.Count > 0)
+            {
+                MAX = Convert.ToInt32(tabla.Rows[0][0]);
+
+            }
+
+            return MAX;
+        }
 
     }
 }

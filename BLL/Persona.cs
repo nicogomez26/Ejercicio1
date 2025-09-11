@@ -51,5 +51,32 @@ namespace BLL
             return fa;
         }
 
+        public double Promedio()
+        {
+            double fa = 0.0;
+
+            fa = mapper.CalcularProm();
+
+            return fa;
+        }
+
+        public int Min()
+        {
+            int fa = 0;
+
+            fa = mapper.CalcularMin();
+
+            return fa;
+        }
+
+        public int MAX()
+        {
+            int fa = 0;
+
+            fa = mapper.CalcularMAX();
+
+            return fa;
+        }
+
     }
 }

@@ -42,6 +42,16 @@ namespace Clase4
             grilla.DataSource = nacionalidadBll.ListarNacionalidad();
         }
 
+        public void mostrarRegistradas()
+        {
+            cantPersonaTxt.Text = personaBll.Contar().ToString();
+        }
+
+        public void mostrarPromedio()
+        {
+            promEdadTxt.Text = personaBll.Promedio().ToString("F2");
+        }
+
         public void VerGrillaPro()
         {
             grilla.DataSource = null;
@@ -50,6 +60,15 @@ namespace Clase4
         private void Form1_Load(object sender, EventArgs e)
         {
             VerGrilla();
+            mostrarRegistradas();
+            mostrarPromedio();
+            MostrarMinYMax();
+        }
+
+        public void MostrarMinYMax()
+        {
+            edadMinTxt.Text = personaBll.Min().ToString();
+            edadMaxTxt.Text = personaBll.MAX().ToString();
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
@@ -78,7 +97,9 @@ namespace Clase4
                 MessageBox.Show("Error");
             }
 
-            cantPersonaTxt.Text = personaBll.Contar().ToString();
+            mostrarRegistradas();
+            mostrarPromedio();
+            MostrarMinYMax();
 
 
         }
@@ -105,6 +126,11 @@ namespace Clase4
                 VerGrilla();
             }
             else { MessageBox.Show("Error"); }
+
+
+            mostrarRegistradas();
+            mostrarPromedio();
+            MostrarMinYMax();
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
@@ -123,6 +149,10 @@ namespace Clase4
             {
                 MessageBox.Show("Error");
             }
+
+            mostrarRegistradas();
+            mostrarPromedio();
+            MostrarMinYMax();
         }
 
         BE.Persona tmp;
