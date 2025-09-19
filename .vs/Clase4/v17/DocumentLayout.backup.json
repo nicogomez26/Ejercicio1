@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "F:\\POO.3\\Ejercicio1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6F517E8B-91E2-4661-AF3F-8D4A6E9983D7}|DAL\\DAL.csproj|f:\\poo.3\\ejercicio1\\dal\\mp_nacionalidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F517E8B-91E2-4661-AF3F-8D4A6E9983D7}|DAL\\DAL.csproj|solutionrelative:dal\\mp_nacionalidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D1D5C4AE-33A6-4758-9BA7-B2F2C06C6233}|Clase4\\Clase4.csproj|f:\\poo.3\\ejercicio1\\clase4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1D5C4AE-33A6-4758-9BA7-B2F2C06C6233}|Clase4\\Clase4.csproj|solutionrelative:clase4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6F517E8B-91E2-4661-AF3F-8D4A6E9983D7}|DAL\\DAL.csproj|f:\\poo.3\\ejercicio1\\dal\\mp_profesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F517E8B-91E2-4661-AF3F-8D4A6E9983D7}|DAL\\DAL.csproj|solutionrelative:dal\\mp_profesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F517E8B-91E2-4661-AF3F-8D4A6E9983D7}|DAL\\DAL.csproj|f:\\poo.3\\ejercicio1\\dal\\mp_nacionalidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F517E8B-91E2-4661-AF3F-8D4A6E9983D7}|DAL\\DAL.csproj|solutionrelative:dal\\mp_nacionalidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{110091EF-4940-4970-A631-2C274077A475}|BLL\\BLL.csproj|f:\\poo.3\\ejercicio1\\bll\\nacionalidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,16 +47,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "F:\\POO.3\\Ejercicio1\\Clase4\\Form1.cs",
               "RelativeDocumentMoniker": "Clase4\\Form1.cs",
-              "ToolTip": "F:\\POO.3\\Ejercicio1\\Clase4\\Form1.cs*",
-              "RelativeToolTip": "Clase4\\Form1.cs*",
+              "ToolTip": "F:\\POO.3\\Ejercicio1\\Clase4\\Form1.cs",
+              "RelativeToolTip": "Clase4\\Form1.cs",
               "ViewState": "AgIAAIcAAAAAAAAAAAAnwKYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-10T16:40:09.555Z",
@@ -90,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Mp_Profesion.cs",
               "DocumentMoniker": "F:\\POO.3\\Ejercicio1\\DAL\\Mp_Profesion.cs",
               "RelativeDocumentMoniker": "DAL\\Mp_Profesion.cs",
@@ -103,13 +103,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Mp_Nacionalidad.cs",
               "DocumentMoniker": "F:\\POO.3\\Ejercicio1\\DAL\\Mp_Nacionalidad.cs",
               "RelativeDocumentMoniker": "DAL\\Mp_Nacionalidad.cs",
               "ToolTip": "F:\\POO.3\\Ejercicio1\\DAL\\Mp_Nacionalidad.cs*",
               "RelativeToolTip": "DAL\\Mp_Nacionalidad.cs*",
-              "ViewState": "AgIAACEAAAAAAAAAAAAuwDoAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAuwD0AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-10T16:12:10.022Z",
               "EditorCaption": ""
@@ -159,12 +159,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "F:\\POO.3\\Ejercicio1\\Clase4\\Form1.cs",
               "RelativeDocumentMoniker": "Clase4\\Form1.cs",
-              "ToolTip": "F:\\POO.3\\Ejercicio1\\Clase4\\Form1.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "Clase4\\Form1.cs [Dise\u00F1o]*",
+              "ToolTip": "F:\\POO.3\\Ejercicio1\\Clase4\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Clase4\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-03T22:29:55.781Z",
               "EditorCaption": " [Dise\u00F1o]"

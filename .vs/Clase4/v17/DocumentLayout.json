@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "F:\\POO.3\\Ejercicio1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6F517E8B-91E2-4661-AF3F-8D4A6E9983D7}|DAL\\DAL.csproj|f:\\poo.3\\ejercicio1\\dal\\mp_profesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F517E8B-91E2-4661-AF3F-8D4A6E9983D7}|DAL\\DAL.csproj|solutionrelative:dal\\mp_profesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6F517E8B-91E2-4661-AF3F-8D4A6E9983D7}|DAL\\DAL.csproj|f:\\poo.3\\ejercicio1\\dal\\mp_nacionalidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F517E8B-91E2-4661-AF3F-8D4A6E9983D7}|DAL\\DAL.csproj|solutionrelative:dal\\mp_nacionalidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{110091EF-4940-4970-A631-2C274077A475}|BLL\\BLL.csproj|f:\\poo.3\\ejercicio1\\bll\\profesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{110091EF-4940-4970-A631-2C274077A475}|BLL\\BLL.csproj|solutionrelative:bll\\profesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D1D5C4AE-33A6-4758-9BA7-B2F2C06C6233}|Clase4\\Clase4.csproj|f:\\poo.3\\ejercicio1\\clase4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,20 +23,12 @@
       "RelativeMoniker": "D:0:0:{D1D5C4AE-33A6-4758-9BA7-B2F2C06C6233}|Clase4\\Clase4.csproj|solutionrelative:clase4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F517E8B-91E2-4661-AF3F-8D4A6E9983D7}|DAL\\DAL.csproj|f:\\poo.3\\ejercicio1\\dal\\mp_profesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F517E8B-91E2-4661-AF3F-8D4A6E9983D7}|DAL\\DAL.csproj|solutionrelative:dal\\mp_profesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{110091EF-4940-4970-A631-2C274077A475}|BLL\\BLL.csproj|f:\\poo.3\\ejercicio1\\bll\\nacionalidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{110091EF-4940-4970-A631-2C274077A475}|BLL\\BLL.csproj|solutionrelative:bll\\nacionalidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC6DAE2B-D336-485B-BC88-9BF6A12A3838}|BE\\BE.csproj|f:\\poo.3\\ejercicio1\\be\\nacionalidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC6DAE2B-D336-485B-BC88-9BF6A12A3838}|BE\\BE.csproj|solutionrelative:be\\nacionalidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{110091EF-4940-4970-A631-2C274077A475}|BLL\\BLL.csproj|f:\\poo.3\\ejercicio1\\bll\\profesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{110091EF-4940-4970-A631-2C274077A475}|BLL\\BLL.csproj|solutionrelative:bll\\profesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Navegador\\Downloads\\Clase4\\DAL\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -47,11 +47,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "F:\\POO.3\\Ejercicio1\\Clase4\\Form1.cs",
               "RelativeDocumentMoniker": "Clase4\\Form1.cs",
@@ -64,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Profesion.cs",
               "DocumentMoniker": "F:\\POO.3\\Ejercicio1\\BLL\\Profesion.cs",
               "RelativeDocumentMoniker": "BLL\\Profesion.cs",
@@ -77,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Nacionalidad.cs",
               "DocumentMoniker": "F:\\POO.3\\Ejercicio1\\BLL\\Nacionalidad.cs",
               "RelativeDocumentMoniker": "BLL\\Nacionalidad.cs",
@@ -90,25 +90,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Mp_Profesion.cs",
               "DocumentMoniker": "F:\\POO.3\\Ejercicio1\\DAL\\Mp_Profesion.cs",
               "RelativeDocumentMoniker": "DAL\\Mp_Profesion.cs",
               "ToolTip": "F:\\POO.3\\Ejercicio1\\DAL\\Mp_Profesion.cs",
               "RelativeToolTip": "DAL\\Mp_Profesion.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBwAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwDYAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-10T16:12:24.837Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Mp_Nacionalidad.cs",
               "DocumentMoniker": "F:\\POO.3\\Ejercicio1\\DAL\\Mp_Nacionalidad.cs",
               "RelativeDocumentMoniker": "DAL\\Mp_Nacionalidad.cs",
-              "ToolTip": "F:\\POO.3\\Ejercicio1\\DAL\\Mp_Nacionalidad.cs*",
-              "RelativeToolTip": "DAL\\Mp_Nacionalidad.cs*",
+              "ToolTip": "F:\\POO.3\\Ejercicio1\\DAL\\Mp_Nacionalidad.cs",
+              "RelativeToolTip": "DAL\\Mp_Nacionalidad.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAuwD0AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-10T16:12:10.022Z",
@@ -116,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Nacionalidad.cs",
               "DocumentMoniker": "F:\\POO.3\\Ejercicio1\\BE\\Nacionalidad.cs",
               "RelativeDocumentMoniker": "BE\\Nacionalidad.cs",
@@ -159,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "F:\\POO.3\\Ejercicio1\\Clase4\\Form1.cs",
               "RelativeDocumentMoniker": "Clase4\\Form1.cs",
