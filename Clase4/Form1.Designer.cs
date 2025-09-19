@@ -66,6 +66,12 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
+            this.cantPersonaTxt = new System.Windows.Forms.Label();
+            this.promEdadTxt = new System.Windows.Forms.Label();
+            this.edadMinTxt = new System.Windows.Forms.Label();
+            this.edadMaxTxt = new System.Windows.Forms.Label();
+            this.nacMaxTxt = new System.Windows.Forms.Label();
+            this.nacMinTxt = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.grilla)).BeginInit();
             this.SuspendLayout();
             // 
@@ -404,11 +410,71 @@
             this.label17.TabIndex = 44;
             this.label17.Text = "Nac Min";
             // 
+            // cantPersonaTxt
+            // 
+            this.cantPersonaTxt.AutoSize = true;
+            this.cantPersonaTxt.Location = new System.Drawing.Point(395, 551);
+            this.cantPersonaTxt.Name = "cantPersonaTxt";
+            this.cantPersonaTxt.Size = new System.Drawing.Size(13, 13);
+            this.cantPersonaTxt.TabIndex = 45;
+            this.cantPersonaTxt.Text = "0";
+            // 
+            // promEdadTxt
+            // 
+            this.promEdadTxt.AutoSize = true;
+            this.promEdadTxt.Location = new System.Drawing.Point(395, 578);
+            this.promEdadTxt.Name = "promEdadTxt";
+            this.promEdadTxt.Size = new System.Drawing.Size(22, 13);
+            this.promEdadTxt.TabIndex = 46;
+            this.promEdadTxt.Text = "0.0";
+            // 
+            // edadMinTxt
+            // 
+            this.edadMinTxt.AutoSize = true;
+            this.edadMinTxt.Location = new System.Drawing.Point(395, 605);
+            this.edadMinTxt.Name = "edadMinTxt";
+            this.edadMinTxt.Size = new System.Drawing.Size(13, 13);
+            this.edadMinTxt.TabIndex = 47;
+            this.edadMinTxt.Text = "0";
+            // 
+            // edadMaxTxt
+            // 
+            this.edadMaxTxt.AutoSize = true;
+            this.edadMaxTxt.Location = new System.Drawing.Point(395, 632);
+            this.edadMaxTxt.Name = "edadMaxTxt";
+            this.edadMaxTxt.Size = new System.Drawing.Size(13, 13);
+            this.edadMaxTxt.TabIndex = 48;
+            this.edadMaxTxt.Text = "0";
+            // 
+            // nacMaxTxt
+            // 
+            this.nacMaxTxt.AutoSize = true;
+            this.nacMaxTxt.Location = new System.Drawing.Point(712, 551);
+            this.nacMaxTxt.Name = "nacMaxTxt";
+            this.nacMaxTxt.Size = new System.Drawing.Size(13, 13);
+            this.nacMaxTxt.TabIndex = 49;
+            this.nacMaxTxt.Text = "0";
+            // 
+            // nacMinTxt
+            // 
+            this.nacMinTxt.AutoSize = true;
+            this.nacMinTxt.Location = new System.Drawing.Point(712, 578);
+            this.nacMinTxt.Name = "nacMinTxt";
+            this.nacMinTxt.Size = new System.Drawing.Size(13, 13);
+            this.nacMinTxt.TabIndex = 50;
+            this.nacMinTxt.Text = "0";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1649, 706);
+            this.Controls.Add(this.nacMinTxt);
+            this.Controls.Add(this.nacMaxTxt);
+            this.Controls.Add(this.edadMaxTxt);
+            this.Controls.Add(this.edadMinTxt);
+            this.Controls.Add(this.promEdadTxt);
+            this.Controls.Add(this.cantPersonaTxt);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
@@ -496,6 +562,12 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label cantPersonaTxt;
+        private System.Windows.Forms.Label promEdadTxt;
+        private System.Windows.Forms.Label edadMinTxt;
+        private System.Windows.Forms.Label edadMaxTxt;
+        private System.Windows.Forms.Label nacMaxTxt;
+        private System.Windows.Forms.Label nacMinTxt;
     }
 }
 
