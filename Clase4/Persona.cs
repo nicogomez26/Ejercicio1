@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Clase4
 {
-    public partial class Form1 : Form
+    public partial class Persona : Form
     {
-        public Form1()
+        public Persona()
         {
             InitializeComponent();
         }
@@ -21,25 +21,11 @@ namespace Clase4
 
         BLL.Persona personaBll = new BLL.Persona();
 
-
-        BE.Nacionalidad nacionalidad;
-
-        BLL.Nacionalidad nacionalidadBll = new BLL.Nacionalidad();
-
-        BE.Profesion profesion;
-
-        BLL.Profesion profesionBll = new BLL.Profesion();
-
+       
         public void VerGrilla()
         {
             grilla.DataSource = null;
             grilla.DataSource = personaBll.ListarPersona();
-        }
-
-        public void VerGrillaNac()
-        {
-            grilla.DataSource = null;
-            grilla.DataSource = nacionalidadBll.ListarNacionalidad();
         }
 
         public void mostrarRegistradas()
@@ -52,11 +38,7 @@ namespace Clase4
             promEdadTxt.Text = personaBll.Promedio().ToString("F2");
         }
 
-        public void VerGrillaPro()
-        {
-            grilla.DataSource = null;
-            grilla.DataSource = profesionBll.ListarProfesion();
-        }
+        
         private void Form1_Load(object sender, EventArgs e)
         {
             VerGrilla();
@@ -169,35 +151,15 @@ namespace Clase4
             profesionCmb.Text = tmp.IdProfesion.ToString();
         }
 
-        private void agrNacBtn_Click(object sender, EventArgs e)
+       
+
+        private void volverBtn_Click(object sender, EventArgs e)
         {
+            Empresa empresa = new Empresa();
 
-            int fa = 0;
+            empresa.Show();
+            this.Hide();
 
-            nacionalidad = new BE.Nacionalidad();
-
-            nacionalidad.IdNacionalidad = int.Parse(nroNacTxt.Text);
-            nacionalidad.Nombre_nacionalidad = nomNacTxt.Text;
-            nacionalidad.CantPersonas = 0;
-            nacionalidad.PromEdad = 0.0;
-
-            fa = nacionalidadBll.AgregarNacionalidad(nacionalidad);
-
-            if (fa != 0)
-            {
-                MessageBox.Show("Se agregó");
-                VerGrillaNac();
-            }
-            else
-            {
-                MessageBox.Show("Error");
-            }
-
-        }
-
-        private void editNacBtn_Click(object sender, EventArgs e)
-        {
-            VerGrillaNac();
         }
     }
 }
