@@ -1,9 +1,11 @@
-﻿using DAL;
+﻿using BE;
+using DAL;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace BLL
 {
@@ -76,6 +78,35 @@ namespace BLL
             fa = mapper.CalcularMAX();
 
             return fa;
+        }
+
+        BLL.Profesion profesionBll = new BLL.Profesion();
+
+        public void listarProfesiones(ComboBox cmb)
+        {
+
+            List<BE.Profesion> profesiones = profesionBll.ListarProfesion();
+
+            cmb.DataSource = profesiones;
+
+            cmb.DisplayMember = "Nombre_Profesion";
+
+            cmb.SelectedIndex = -1;
+        }
+
+        BLL.Nacionalidad nacionalidadBll = new BLL.Nacionalidad();
+
+
+        public void listarNacionalidades(ComboBox cmb)
+        {
+
+            List<BE.Nacionalidad> nacionalidades = nacionalidadBll.ListarNacionalidad();
+
+            cmb.DataSource = nacionalidades;
+
+            cmb.DisplayMember = "Nombre_Nacionalidad";
+
+            cmb.SelectedIndex = -1;
         }
 
     }

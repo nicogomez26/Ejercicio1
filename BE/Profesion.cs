@@ -24,5 +24,9 @@ namespace BE
 			set { nombre_profesion = value; }
 		}
 
-	}
+        public override string ToString()
+        {
+            return IdProfesion.ToString();
+        }
+    }
 }

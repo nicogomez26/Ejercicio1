@@ -21,11 +21,21 @@ namespace Clase4
 
         BLL.Persona personaBll = new BLL.Persona();
 
-       
+        BE.Nacionalidad nacionalidad;
+
+        BLL.Nacionalidad nacionalidadBll = new BLL.Nacionalidad();
+
+        BE.Profesion profesion;
+
+        BLL.Profesion profesionBll = new BLL.Profesion();
+
+
         public void VerGrilla()
         {
+
             grilla.DataSource = null;
             grilla.DataSource = personaBll.ListarPersona();
+            
         }
 
         public void mostrarRegistradas()
@@ -39,8 +49,11 @@ namespace Clase4
         }
 
         
+
         private void Form1_Load(object sender, EventArgs e)
         {
+            personaBll.listarProfesiones(profesionCmb);
+            personaBll.listarNacionalidades(nacionalidadCmb);
             VerGrilla();
             mostrarRegistradas();
             mostrarPromedio();
@@ -64,8 +77,8 @@ namespace Clase4
             persona.Apellido = apellidoTxt.Text;
             persona.Edad = int.Parse(edadTxt.Text);
             persona.Sexo = sexoCmb.Text;
-            persona.Nacionalidad.IdNacionalidad = int.Parse(nacionalidadCmb.Text);
-            persona.Profesion.IdProfesion = int.Parse(profesionCmb.Text);
+            persona.Nacionalidad = nacionalidadCmb.SelectedItem as BE.Nacionalidad;
+            persona.Profesion = profesionCmb.SelectedItem as BE.Profesion;
 
             fa = personaBll.AgregarPersona(persona);
 
@@ -97,8 +110,8 @@ namespace Clase4
             persona.Apellido = apellidoTxt.Text;
             persona.Edad = int.Parse(edadTxt.Text);
             persona.Sexo = sexoCmb.Text;
-            persona.Nacionalidad.IdNacionalidad = int.Parse(nacionalidadCmb.Text);
-            persona.Profesion.IdProfesion = int.Parse(profesionCmb.Text);
+            persona.Nacionalidad = nacionalidadCmb.SelectedItem as BE.Nacionalidad;
+            persona.Profesion = profesionCmb.SelectedItem as BE.Profesion;
 
 
             fa = personaBll.EditarPersona(persona);

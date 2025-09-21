@@ -40,6 +40,9 @@ namespace BE
 			set { promEdad = value; }
 		}
 
-
+        public override string ToString()
+        {
+            return IdNacionalidad.ToString();
+        }
 	}
 }

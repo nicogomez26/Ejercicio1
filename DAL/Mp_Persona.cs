@@ -37,8 +37,8 @@ namespace DAL
             parametro[2] = new SqlParameter("@apellido", persona.Apellido);
             parametro[3] = new SqlParameter("@edad", persona.Edad);
             parametro[4] = new SqlParameter("@sexo", persona.Sexo);
-            parametro[5] = new SqlParameter("@idNacionalidad", persona.Nacionalidad.IdNacionalidad);
-            parametro[6] = new SqlParameter("@idProfesion", persona.Profesion.IdProfesion);
+            parametro[5] = new SqlParameter("@idNacionalidad", persona.Nacionalidad.Nombre_nacionalidad);
+            parametro[6] = new SqlParameter("@idProfesion", persona.Profesion.Nombre_profesion);
             fa = acc.Escribir("EditarPersona", parametro);
 
             return fa;
@@ -66,8 +66,10 @@ namespace DAL
                 persona.Apellido = dr["Apellido"].ToString();
                 persona.Edad = int.Parse(dr["Edad"].ToString());
                 persona.Sexo = dr["Sexo"].ToString();
-                persona.Nacionalidad.IdNacionalidad = int.Parse(dr["IdNacionalidad"].ToString());
-                persona.Profesion.IdProfesion = int.Parse(dr["IdProfesion"].ToString());
+                persona.Nacionalidad = new BE.Nacionalidad();
+                persona.Nacionalidad.IdNacionalidad = int.Parse(dr["idNacionalidad"].ToString());
+                persona.Profesion = new BE.Profesion();
+                persona.Profesion.IdProfesion = int.Parse(dr["idProfesion"].ToString());
 
                 personas.Add(persona);
 
@@ -98,7 +100,7 @@ namespace DAL
 
             DataTable tabla = acc.Leer("CalcularPromRegistradas", null);
 
-            if (tabla.Rows.Count > 0)
+            if (tabla.Rows.Count > 0 && tabla.Rows[0][0] != DBNull.Value)
             {
                 promedio = Convert.ToDouble(tabla.Rows[0][0]);
 
@@ -114,7 +116,7 @@ namespace DAL
 
             DataTable tabla = acc.Leer("CalcularEdadMinima", null);
 
-            if (tabla.Rows.Count > 0)
+            if (tabla.Rows.Count > 0 && tabla.Rows[0][0] != DBNull.Value)
             {
                 Min = Convert.ToInt32(tabla.Rows[0][0]);
 
@@ -129,7 +131,7 @@ namespace DAL
 
             DataTable tabla = acc.Leer("CalcularEdadMaxima", null);
 
-            if (tabla.Rows.Count > 0)
+            if (tabla.Rows.Count > 0 && tabla.Rows[0][0] != DBNull.Value)
             {
                 MAX = Convert.ToInt32(tabla.Rows[0][0]);
 
