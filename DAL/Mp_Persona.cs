@@ -112,7 +112,7 @@ namespace DAL
         {
             int Min = 0;
 
-            DataTable tabla = acc.Leer("CalcularMinEdad", null);
+            DataTable tabla = acc.Leer("CalcularEdadMinima", null);
 
             if (tabla.Rows.Count > 0)
             {
@@ -127,7 +127,7 @@ namespace DAL
         {
             int MAX = 0;
 
-            DataTable tabla = acc.Leer("CalcularMAXEdad", null);
+            DataTable tabla = acc.Leer("CalcularEdadMaxima", null);
 
             if (tabla.Rows.Count > 0)
             {
