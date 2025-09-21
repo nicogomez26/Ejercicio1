@@ -44,19 +44,21 @@
             // 
             this.elimProBtn.Location = new System.Drawing.Point(50, 274);
             this.elimProBtn.Name = "elimProBtn";
-            this.elimProBtn.Size = new System.Drawing.Size(180, 29);
+            this.elimProBtn.Size = new System.Drawing.Size(180, 37);
             this.elimProBtn.TabIndex = 46;
             this.elimProBtn.Text = "Eliminar";
             this.elimProBtn.UseVisualStyleBackColor = true;
+            this.elimProBtn.Click += new System.EventHandler(this.elimProBtn_Click);
             // 
             // editProBtn
             // 
             this.editProBtn.Location = new System.Drawing.Point(50, 230);
             this.editProBtn.Name = "editProBtn";
-            this.editProBtn.Size = new System.Drawing.Size(180, 36);
+            this.editProBtn.Size = new System.Drawing.Size(180, 37);
             this.editProBtn.TabIndex = 45;
             this.editProBtn.Text = "Editar";
             this.editProBtn.UseVisualStyleBackColor = true;
+            this.editProBtn.Click += new System.EventHandler(this.editProBtn_Click);
             // 
             // agrProBtn
             // 
@@ -113,6 +115,7 @@
             this.grillaProf.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.grillaProf.Size = new System.Drawing.Size(522, 315);
             this.grillaProf.TabIndex = 39;
+            this.grillaProf.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grillaProf_CellClick);
             // 
             // volverBtn
             // 

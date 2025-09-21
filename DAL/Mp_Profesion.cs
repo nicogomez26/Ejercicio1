@@ -38,7 +38,7 @@ namespace DAL
         {
             int fa = 0;
             SqlParameter[] parametro = new SqlParameter[1];
-            parametro[0] = new SqlParameter("@nroNacionalidad", profesion.IdProfesion);
+            parametro[0] = new SqlParameter("@nroProfesion", profesion.IdProfesion);
             fa = acc.Escribir("EliminarProfesion", parametro);
 
             return fa;

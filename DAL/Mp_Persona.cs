@@ -21,9 +21,9 @@ namespace DAL
             parametro[2] = new SqlParameter("@apellido", persona.Apellido);
             parametro[3] = new SqlParameter("@edad", persona.Edad);
             parametro[4] = new SqlParameter("@sexo", persona.Sexo);
-            parametro[5] = new SqlParameter("@idNacionalidad", persona.IdNacionalidad);
-            parametro[6] = new SqlParameter("@idProfesion", persona.IdProfesion);
-            fa = acc.Escribir("Agreg 7arPersona", parametro);
+            parametro[5] = new SqlParameter("@idNacionalidad", persona.Nacionalidad.IdNacionalidad);
+            parametro[6] = new SqlParameter("@idProfesion", persona.Profesion.IdProfesion);
+            fa = acc.Escribir("AgregarPersona", parametro);
 
             return fa;
         }
@@ -37,8 +37,8 @@ namespace DAL
             parametro[2] = new SqlParameter("@apellido", persona.Apellido);
             parametro[3] = new SqlParameter("@edad", persona.Edad);
             parametro[4] = new SqlParameter("@sexo", persona.Sexo);
-            parametro[5] = new SqlParameter("@idNacionalidad", persona.IdNacionalidad);
-            parametro[6] = new SqlParameter("@idProfesion", persona.IdProfesion);
+            parametro[5] = new SqlParameter("@idNacionalidad", persona.Nacionalidad.IdNacionalidad);
+            parametro[6] = new SqlParameter("@idProfesion", persona.Profesion.IdProfesion);
             fa = acc.Escribir("EditarPersona", parametro);
 
             return fa;
@@ -66,8 +66,8 @@ namespace DAL
                 persona.Apellido = dr["Apellido"].ToString();
                 persona.Edad = int.Parse(dr["Edad"].ToString());
                 persona.Sexo = dr["Sexo"].ToString();
-                persona.IdNacionalidad = int.Parse(dr["IdNacionalidad"].ToString());
-                persona.IdProfesion = int.Parse(dr["IdProfesion"].ToString());
+                persona.Nacionalidad.IdNacionalidad = int.Parse(dr["IdNacionalidad"].ToString());
+                persona.Profesion.IdProfesion = int.Parse(dr["IdProfesion"].ToString());
 
                 personas.Add(persona);
 

@@ -205,6 +205,7 @@
             this.grilla.Size = new System.Drawing.Size(781, 463);
             this.grilla.TabIndex = 22;
             this.grilla.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grilla_CellClick);
+            this.grilla.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grilla_CellContentClick);
             // 
             // sexoCmb
             // 

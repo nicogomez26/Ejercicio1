@@ -24,8 +24,5 @@ namespace BE
 			set { nombre_profesion = value; }
 		}
 
-
-
-
 	}
 }

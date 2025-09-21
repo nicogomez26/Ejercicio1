@@ -64,8 +64,8 @@ namespace Clase4
             persona.Apellido = apellidoTxt.Text;
             persona.Edad = int.Parse(edadTxt.Text);
             persona.Sexo = sexoCmb.Text;
-            persona.IdNacionalidad = int.Parse(nacionalidadCmb.Text);
-            persona.IdProfesion = int.Parse(profesionCmb.Text);
+            persona.Nacionalidad.IdNacionalidad = int.Parse(nacionalidadCmb.Text);
+            persona.Profesion.IdProfesion = int.Parse(profesionCmb.Text);
 
             fa = personaBll.AgregarPersona(persona);
 
@@ -97,8 +97,8 @@ namespace Clase4
             persona.Apellido = apellidoTxt.Text;
             persona.Edad = int.Parse(edadTxt.Text);
             persona.Sexo = sexoCmb.Text;
-            persona.IdNacionalidad = int.Parse(nacionalidadCmb.Text);
-            persona.IdProfesion = int.Parse(profesionCmb.Text);
+            persona.Nacionalidad.IdNacionalidad = int.Parse(nacionalidadCmb.Text);
+            persona.Profesion.IdProfesion = int.Parse(profesionCmb.Text);
 
 
             fa = personaBll.EditarPersona(persona);
@@ -124,7 +124,7 @@ namespace Clase4
 
             if (fa != 0)
             {
-                MessageBox.Show("Se Elimino");
+                MessageBox.Show("Se eliminó");
                 VerGrilla();
             }
             else
@@ -147,8 +147,8 @@ namespace Clase4
             apellidoTxt.Text = tmp.Apellido.ToString();
             edadTxt.Text = tmp.Edad.ToString();
             sexoCmb.Text = tmp.Sexo.ToString();
-            nacionalidadCmb.Text = tmp.IdNacionalidad.ToString();
-            profesionCmb.Text = tmp.IdProfesion.ToString();
+            nacionalidadCmb.Text = tmp.Nacionalidad.IdNacionalidad.ToString();
+            profesionCmb.Text = tmp.Profesion.IdProfesion.ToString();
         }
 
        
@@ -159,6 +159,11 @@ namespace Clase4
 
             empresa.Show();
             this.Hide();
+
+        }
+
+        private void grilla_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
         }
     }

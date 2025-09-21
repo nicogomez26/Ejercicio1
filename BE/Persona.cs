@@ -47,22 +47,21 @@ namespace BE
 			set { sexo = value; }
 		}
 
+		private Nacionalidad nacionalidad;
 
-		private int idNacionalidad;
-
-		public int IdNacionalidad
+		public Nacionalidad Nacionalidad
 		{
-			get { return idNacionalidad; }
-			set { idNacionalidad = value; }
+			get { return nacionalidad; }
+			set { nacionalidad = value; }
 		}
-		private int idProfesion;
 
-		public int IdProfesion
+		private Profesion profesion;
+
+		public Profesion Profesion
 		{
-			get { return idProfesion; }
-			set { idProfesion = value; }
-		} 
-
+			get { return profesion; }
+			set { profesion = value; }
+		}
 
 	}
 }

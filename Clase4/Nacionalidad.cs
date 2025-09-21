@@ -78,7 +78,34 @@ namespace Clase4
 
             if (fa != 0)
             {
-                MessageBox.Show("Se editó");
+                MessageBox.Show("Se modificó");
+                VerGrillaNac();
+            }
+            else
+            {
+                MessageBox.Show("Error");
+            }
+        }
+
+        BE.Nacionalidad tmp;
+
+        private void grillaNac_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            tmp = (BE.Nacionalidad)grillaNac.Rows[e.RowIndex].DataBoundItem;
+            nroNacTxt.Text = tmp.IdNacionalidad.ToString();
+            nomNacTxt.Text = tmp.Nombre_nacionalidad.ToString();
+        }
+
+        private void elimNacBtn_Click(object sender, EventArgs e)
+        {
+            int fa = 0;
+            nacionalidad = new BE.Nacionalidad();
+            nacionalidad.IdNacionalidad = int.Parse(nroNacTxt.Text);
+            fa = nacionalidadBll.EliminarNacionalidad(nacionalidad);
+
+            if (fa != 0)
+            {
+                MessageBox.Show("Se eliminó");
                 VerGrillaNac();
             }
             else

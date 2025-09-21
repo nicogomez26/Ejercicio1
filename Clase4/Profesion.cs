@@ -60,5 +60,54 @@ namespace Clase4
         {
             VerGrillaPro();
         }
+
+        BE.Profesion tmp;
+
+        private void grillaProf_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            tmp = (BE.Profesion)grillaProf.Rows[e.RowIndex].DataBoundItem;
+            nroProTxt.Text = tmp.IdProfesion.ToString();
+            nomProTxt.Text = tmp.Nombre_profesion.ToString();
+        }
+
+        private void editProBtn_Click(object sender, EventArgs e)
+        {
+            int fa = 0;
+
+            profesion = new BE.Profesion();
+
+            profesion.IdProfesion = int.Parse(nroProTxt.Text);
+            profesion.Nombre_profesion = nomProTxt.Text;
+
+            fa = profesionBll.EditarProfesion(profesion);
+
+            if (fa != 0)
+            {
+                MessageBox.Show("Se modificó");
+                VerGrillaPro();
+            }
+            else
+            {
+                MessageBox.Show("Error");
+            }
+        }
+
+        private void elimProBtn_Click(object sender, EventArgs e)
+        {
+            int fa = 0;
+            profesion = new BE.Profesion();
+            profesion.IdProfesion = int.Parse(nroProTxt.Text);
+            fa = profesionBll.EliminarProfesion(profesion);
+
+            if (fa != 0)
+            {
+                MessageBox.Show("Se eliminó");
+                VerGrillaPro();
+            }
+            else
+            {
+                MessageBox.Show("Error");
+            }
+        }
     }
 }

@@ -48,12 +48,13 @@
             this.elimNacBtn.TabIndex = 44;
             this.elimNacBtn.Text = "Eliminar";
             this.elimNacBtn.UseVisualStyleBackColor = true;
+            this.elimNacBtn.Click += new System.EventHandler(this.elimNacBtn_Click);
             // 
             // editNacBtn
             // 
             this.editNacBtn.Location = new System.Drawing.Point(53, 264);
             this.editNacBtn.Name = "editNacBtn";
-            this.editNacBtn.Size = new System.Drawing.Size(180, 36);
+            this.editNacBtn.Size = new System.Drawing.Size(180, 29);
             this.editNacBtn.TabIndex = 43;
             this.editNacBtn.Text = "Editar";
             this.editNacBtn.UseVisualStyleBackColor = true;
@@ -63,7 +64,7 @@
             // 
             this.agrNacBtn.Location = new System.Drawing.Point(53, 221);
             this.agrNacBtn.Name = "agrNacBtn";
-            this.agrNacBtn.Size = new System.Drawing.Size(180, 37);
+            this.agrNacBtn.Size = new System.Drawing.Size(180, 29);
             this.agrNacBtn.TabIndex = 42;
             this.agrNacBtn.Text = "Agregar";
             this.agrNacBtn.UseVisualStyleBackColor = true;
@@ -114,6 +115,7 @@
             this.grillaNac.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.grillaNac.Size = new System.Drawing.Size(516, 320);
             this.grillaNac.TabIndex = 45;
+            this.grillaNac.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grillaNac_CellClick);
             // 
             // volverBtn
             // 
