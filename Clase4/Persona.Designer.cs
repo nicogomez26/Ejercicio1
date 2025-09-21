@@ -115,7 +115,7 @@
             this.edadTxt.Location = new System.Drawing.Point(97, 227);
             this.edadTxt.Name = "edadTxt";
             this.edadTxt.Size = new System.Drawing.Size(62, 20);
-            this.edadTxt.TabIndex = 13;
+            this.edadTxt.TabIndex = 12;
             // 
             // label4
             // 
@@ -151,7 +151,7 @@
             this.nacionalidadCmb.Location = new System.Drawing.Point(97, 313);
             this.nacionalidadCmb.Name = "nacionalidadCmb";
             this.nacionalidadCmb.Size = new System.Drawing.Size(121, 21);
-            this.nacionalidadCmb.TabIndex = 17;
+            this.nacionalidadCmb.TabIndex = 14;
             // 
             // profesionCmb
             // 
@@ -159,7 +159,7 @@
             this.profesionCmb.Location = new System.Drawing.Point(97, 340);
             this.profesionCmb.Name = "profesionCmb";
             this.profesionCmb.Size = new System.Drawing.Size(121, 21);
-            this.profesionCmb.TabIndex = 18;
+            this.profesionCmb.TabIndex = 15;
             // 
             // btnEliminar
             // 
@@ -216,7 +216,7 @@
             this.sexoCmb.Location = new System.Drawing.Point(97, 279);
             this.sexoCmb.Name = "sexoCmb";
             this.sexoCmb.Size = new System.Drawing.Size(121, 21);
-            this.sexoCmb.TabIndex = 23;
+            this.sexoCmb.TabIndex = 13;
             // 
             // label7
             // 
