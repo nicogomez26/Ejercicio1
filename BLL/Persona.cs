@@ -19,8 +19,25 @@ namespace BLL
             int fa = 0;
             fa = mapper.Agregar(persona);
 
+            BE.Nacionalidad nacBe = persona.Nacionalidad;
+            BLL.Nacionalidad nacBll = new BLL.Nacionalidad();
+
+            if (nacBe != null)
+            {
+                nacBe.PersonasNac.Add(persona);
+            }
+            
+            
+            nacBll.calcularPromyCant(nacBe);
+
+            nacBll.EditarNacionalidad(nacBe);
+
+            MessageBox.Show(nacBe.CantPersonas.ToString());
+            MessageBox.Show(nacBe.PromEdad.ToString());
             return fa;
         }
+
+
 
         public int EditarPersona(BE.Persona persona)
         {

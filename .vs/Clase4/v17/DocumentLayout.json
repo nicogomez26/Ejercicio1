@@ -3,34 +3,6 @@
   "WorkspaceRootPath": "F:\\POO.3\\Ejercicio1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D1D5C4AE-33A6-4758-9BA7-B2F2C06C6233}|Clase4\\Clase4.csproj|f:\\poo.3\\ejercicio1\\clase4\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D1D5C4AE-33A6-4758-9BA7-B2F2C06C6233}|Clase4\\Clase4.csproj|solutionrelative:clase4\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1D5C4AE-33A6-4758-9BA7-B2F2C06C6233}|Clase4\\Clase4.csproj|F:\\POO.3\\Ejercicio1\\clase4\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1D5C4AE-33A6-4758-9BA7-B2F2C06C6233}|Clase4\\Clase4.csproj|solutionrelative:clase4\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F517E8B-91E2-4661-AF3F-8D4A6E9983D7}|DAL\\DAL.csproj|F:\\POO.3\\Ejercicio1\\dal\\mp_nacionalidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F517E8B-91E2-4661-AF3F-8D4A6E9983D7}|DAL\\DAL.csproj|solutionrelative:dal\\mp_nacionalidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F517E8B-91E2-4661-AF3F-8D4A6E9983D7}|DAL\\DAL.csproj|F:\\POO.3\\Ejercicio1\\dal\\mp_profesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F517E8B-91E2-4661-AF3F-8D4A6E9983D7}|DAL\\DAL.csproj|solutionrelative:dal\\mp_profesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC6DAE2B-D336-485B-BC88-9BF6A12A3838}|BE\\BE.csproj|F:\\POO.3\\Ejercicio1\\be\\profesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC6DAE2B-D336-485B-BC88-9BF6A12A3838}|BE\\BE.csproj|solutionrelative:be\\profesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC6DAE2B-D336-485B-BC88-9BF6A12A3838}|BE\\BE.csproj|F:\\POO.3\\Ejercicio1\\be\\nacionalidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC6DAE2B-D336-485B-BC88-9BF6A12A3838}|BE\\BE.csproj|solutionrelative:be\\nacionalidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F517E8B-91E2-4661-AF3F-8D4A6E9983D7}|DAL\\DAL.csproj|F:\\POO.3\\Ejercicio1\\dal\\mp_persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F517E8B-91E2-4661-AF3F-8D4A6E9983D7}|DAL\\DAL.csproj|solutionrelative:dal\\mp_persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{110091EF-4940-4970-A631-2C274077A475}|BLL\\BLL.csproj|F:\\POO.3\\Ejercicio1\\bll\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{110091EF-4940-4970-A631-2C274077A475}|BLL\\BLL.csproj|solutionrelative:bll\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,12 +11,40 @@
       "RelativeMoniker": "D:0:0:{BC6DAE2B-D336-485B-BC88-9BF6A12A3838}|BE\\BE.csproj|solutionrelative:be\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6F517E8B-91E2-4661-AF3F-8D4A6E9983D7}|DAL\\DAL.csproj|F:\\POO.3\\Ejercicio1\\dal\\mp_nacionalidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F517E8B-91E2-4661-AF3F-8D4A6E9983D7}|DAL\\DAL.csproj|solutionrelative:dal\\mp_nacionalidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC6DAE2B-D336-485B-BC88-9BF6A12A3838}|BE\\BE.csproj|F:\\POO.3\\Ejercicio1\\be\\profesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC6DAE2B-D336-485B-BC88-9BF6A12A3838}|BE\\BE.csproj|solutionrelative:be\\profesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F517E8B-91E2-4661-AF3F-8D4A6E9983D7}|DAL\\DAL.csproj|F:\\POO.3\\Ejercicio1\\dal\\mp_profesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F517E8B-91E2-4661-AF3F-8D4A6E9983D7}|DAL\\DAL.csproj|solutionrelative:dal\\mp_profesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F517E8B-91E2-4661-AF3F-8D4A6E9983D7}|DAL\\DAL.csproj|F:\\POO.3\\Ejercicio1\\dal\\mp_persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F517E8B-91E2-4661-AF3F-8D4A6E9983D7}|DAL\\DAL.csproj|solutionrelative:dal\\mp_persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{110091EF-4940-4970-A631-2C274077A475}|BLL\\BLL.csproj|F:\\POO.3\\Ejercicio1\\bll\\profesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{110091EF-4940-4970-A631-2C274077A475}|BLL\\BLL.csproj|solutionrelative:bll\\profesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1D5C4AE-33A6-4758-9BA7-B2F2C06C6233}|Clase4\\Clase4.csproj|F:\\POO.3\\Ejercicio1\\clase4\\profesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1D5C4AE-33A6-4758-9BA7-B2F2C06C6233}|Clase4\\Clase4.csproj|solutionrelative:clase4\\profesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{110091EF-4940-4970-A631-2C274077A475}|BLL\\BLL.csproj|F:\\POO.3\\Ejercicio1\\bll\\nacionalidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{110091EF-4940-4970-A631-2C274077A475}|BLL\\BLL.csproj|solutionrelative:bll\\nacionalidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1D5C4AE-33A6-4758-9BA7-B2F2C06C6233}|Clase4\\Clase4.csproj|f:\\poo.3\\ejercicio1\\clase4\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D1D5C4AE-33A6-4758-9BA7-B2F2C06C6233}|Clase4\\Clase4.csproj|solutionrelative:clase4\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC6DAE2B-D336-485B-BC88-9BF6A12A3838}|BE\\BE.csproj|F:\\POO.3\\Ejercicio1\\be\\nacionalidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC6DAE2B-D336-485B-BC88-9BF6A12A3838}|BE\\BE.csproj|solutionrelative:be\\nacionalidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1D5C4AE-33A6-4758-9BA7-B2F2C06C6233}|Clase4\\Clase4.csproj|F:\\POO.3\\Ejercicio1\\clase4\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1D5C4AE-33A6-4758-9BA7-B2F2C06C6233}|Clase4\\Clase4.csproj|solutionrelative:clase4\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D1D5C4AE-33A6-4758-9BA7-B2F2C06C6233}|Clase4\\Clase4.csproj|F:\\POO.3\\Ejercicio1\\clase4\\nacionalidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,8 +55,8 @@
       "RelativeMoniker": "D:0:0:{D1D5C4AE-33A6-4758-9BA7-B2F2C06C6233}|Clase4\\Clase4.csproj|solutionrelative:clase4\\nacionalidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{110091EF-4940-4970-A631-2C274077A475}|BLL\\BLL.csproj|F:\\POO.3\\Ejercicio1\\bll\\nacionalidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{110091EF-4940-4970-A631-2C274077A475}|BLL\\BLL.csproj|solutionrelative:bll\\nacionalidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1D5C4AE-33A6-4758-9BA7-B2F2C06C6233}|Clase4\\Clase4.csproj|F:\\POO.3\\Ejercicio1\\clase4\\profesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1D5C4AE-33A6-4758-9BA7-B2F2C06C6233}|Clase4\\Clase4.csproj|solutionrelative:clase4\\profesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D1D5C4AE-33A6-4758-9BA7-B2F2C06C6233}|Clase4\\Clase4.csproj|F:\\POO.3\\Ejercicio1\\clase4\\profesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -78,11 +78,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Mp_Profesion.cs",
               "DocumentMoniker": "F:\\POO.3\\Ejercicio1\\DAL\\Mp_Profesion.cs",
               "RelativeDocumentMoniker": "DAL\\Mp_Profesion.cs",
@@ -90,11 +90,12 @@
               "RelativeToolTip": "DAL\\Mp_Profesion.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAAwC4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T20:33:40.339Z"
+              "WhenOpened": "2025-09-21T20:33:40.339Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "Profesion.cs",
               "DocumentMoniker": "F:\\POO.3\\Ejercicio1\\BLL\\Profesion.cs",
               "RelativeDocumentMoniker": "BLL\\Profesion.cs",
@@ -102,43 +103,47 @@
               "RelativeToolTip": "BLL\\Profesion.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwCkAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T20:33:30.26Z"
+              "WhenOpened": "2025-09-21T20:33:30.26Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 7,
               "Title": "Nacionalidad.cs",
               "DocumentMoniker": "F:\\POO.3\\Ejercicio1\\BLL\\Nacionalidad.cs",
               "RelativeDocumentMoniker": "BLL\\Nacionalidad.cs",
               "ToolTip": "F:\\POO.3\\Ejercicio1\\BLL\\Nacionalidad.cs",
               "RelativeToolTip": "BLL\\Nacionalidad.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAjwDcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T20:33:28.628Z"
+              "WhenOpened": "2025-09-21T20:33:28.628Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Persona.cs",
               "DocumentMoniker": "F:\\POO.3\\Ejercicio1\\BLL\\Persona.cs",
               "RelativeDocumentMoniker": "BLL\\Persona.cs",
-              "ToolTip": "F:\\POO.3\\Ejercicio1\\BLL\\Persona.cs",
-              "RelativeToolTip": "BLL\\Persona.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAuwCoAAAA1AAAAAAAAAA==",
+              "ToolTip": "F:\\POO.3\\Ejercicio1\\BLL\\Persona.cs*",
+              "RelativeToolTip": "BLL\\Persona.cs*",
+              "ViewState": "AgIAABAAAAAAAAAAAAAtwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T20:33:27.767Z"
+              "WhenOpened": "2025-09-21T20:33:27.767Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Profesion.cs",
               "DocumentMoniker": "F:\\POO.3\\Ejercicio1\\BE\\Profesion.cs",
               "RelativeDocumentMoniker": "BE\\Profesion.cs",
               "ToolTip": "F:\\POO.3\\Ejercicio1\\BE\\Profesion.cs",
               "RelativeToolTip": "BE\\Profesion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T20:17:59.308Z"
+              "WhenOpened": "2025-09-21T20:17:59.308Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -148,9 +153,10 @@
               "RelativeDocumentMoniker": "DAL\\Mp_Nacionalidad.cs",
               "ToolTip": "F:\\POO.3\\Ejercicio1\\DAL\\Mp_Nacionalidad.cs",
               "RelativeToolTip": "DAL\\Mp_Nacionalidad.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAkwBwAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwDgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T20:18:02.195Z"
+              "WhenOpened": "2025-09-21T20:18:02.195Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -172,25 +178,27 @@
               "RelativeDocumentMoniker": "Clase4\\Nacionalidad.cs",
               "ToolTip": "F:\\POO.3\\Ejercicio1\\Clase4\\Nacionalidad.cs",
               "RelativeToolTip": "Clase4\\Nacionalidad.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAAwGQAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAF0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T19:43:42.19Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Persona.cs",
-              "DocumentMoniker": "F:\\POO.3\\Ejercicio1\\Clase4\\Persona.cs",
-              "RelativeDocumentMoniker": "Clase4\\Persona.cs",
-              "ToolTip": "F:\\POO.3\\Ejercicio1\\Clase4\\Persona.cs*",
-              "RelativeToolTip": "Clase4\\Persona.cs*",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAkwKIAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T19:36:07.117Z"
+              "WhenOpened": "2025-09-21T19:43:42.19Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "F:\\POO.3\\Ejercicio1\\Clase4\\Persona.cs",
+              "RelativeDocumentMoniker": "Clase4\\Persona.cs",
+              "ToolTip": "F:\\POO.3\\Ejercicio1\\Clase4\\Persona.cs",
+              "RelativeToolTip": "Clase4\\Persona.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAwE0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T19:36:07.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Profesion.cs",
               "DocumentMoniker": "F:\\POO.3\\Ejercicio1\\Clase4\\Profesion.cs",
               "RelativeDocumentMoniker": "Clase4\\Profesion.cs",
@@ -213,15 +221,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Nacionalidad.cs",
               "DocumentMoniker": "F:\\POO.3\\Ejercicio1\\BE\\Nacionalidad.cs",
               "RelativeDocumentMoniker": "BE\\Nacionalidad.cs",
               "ToolTip": "F:\\POO.3\\Ejercicio1\\BE\\Nacionalidad.cs",
               "RelativeToolTip": "BE\\Nacionalidad.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAuwC0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T23:26:16.14Z"
+              "WhenOpened": "2025-09-19T23:26:16.14Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -232,7 +241,8 @@
               "ToolTip": "F:\\POO.3\\Ejercicio1\\Clase4\\Nacionalidad.cs [Dise\u00F1o]",
               "RelativeToolTip": "Clase4\\Nacionalidad.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T23:26:11.636Z"
+              "WhenOpened": "2025-09-19T23:26:11.636Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -247,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "Persona.cs [Dise\u00F1o]",
               "DocumentMoniker": "F:\\POO.3\\Ejercicio1\\Clase4\\Persona.cs",
               "RelativeDocumentMoniker": "Clase4\\Persona.cs",
@@ -259,27 +269,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "Persona.cs",
               "DocumentMoniker": "F:\\POO.3\\Ejercicio1\\BE\\Persona.cs",
               "RelativeDocumentMoniker": "BE\\Persona.cs",
               "ToolTip": "F:\\POO.3\\Ejercicio1\\BE\\Persona.cs",
               "RelativeToolTip": "BE\\Persona.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAmwDEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T23:26:19.273Z"
+              "WhenOpened": "2025-09-19T23:26:19.273Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Mp_Persona.cs",
               "DocumentMoniker": "F:\\POO.3\\Ejercicio1\\DAL\\Mp_Persona.cs",
               "RelativeDocumentMoniker": "DAL\\Mp_Persona.cs",
               "ToolTip": "F:\\POO.3\\Ejercicio1\\DAL\\Mp_Persona.cs",
               "RelativeToolTip": "DAL\\Mp_Persona.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAkwCgAAABeAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T18:21:44.537Z"
+              "WhenOpened": "2025-09-21T18:21:44.537Z",
+              "EditorCaption": ""
             }
           ]
         }

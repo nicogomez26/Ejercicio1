@@ -21,13 +21,6 @@ namespace Clase4
 
         BLL.Persona personaBll = new BLL.Persona();
 
-        BE.Nacionalidad nacionalidad;
-
-        BLL.Nacionalidad nacionalidadBll = new BLL.Nacionalidad();
-
-        BE.Profesion profesion;
-
-        BLL.Profesion profesionBll = new BLL.Profesion();
 
 
         public void VerGrilla()
@@ -71,14 +64,18 @@ namespace Clase4
             int fa = 0;
 
             persona = new BE.Persona();
-
+            if (nacionalidadCmb.SelectedItem == null || profesionCmb.SelectedItem == null)
+            {
+                MessageBox.Show("Debe seleccionar una nacionalidad y una profesión");
+                return;
+            }
             persona.NroPersona = int.Parse(nroPerTxt.Text);
             persona.Nombre = nombreTxt.Text;
             persona.Apellido = apellidoTxt.Text;
             persona.Edad = int.Parse(edadTxt.Text);
             persona.Sexo = sexoCmb.Text;
-            persona.Nacionalidad = nacionalidadCmb.SelectedItem as BE.Nacionalidad;
-            persona.Profesion = profesionCmb.SelectedItem as BE.Profesion;
+            persona.Nacionalidad = (BE.Nacionalidad)nacionalidadCmb.SelectedItem;
+            persona.Profesion = (BE.Profesion)profesionCmb.SelectedItem;
 
             fa = personaBll.AgregarPersona(persona);
 

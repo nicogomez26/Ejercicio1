@@ -42,5 +42,18 @@ namespace BLL
             List<BE.Nacionalidad> nacionalidades = mapper.Listar();
             return nacionalidades;
         }
+
+        public void calcularPromyCant(BE.Nacionalidad nacionalidad)
+        {
+            nacionalidad.CantPersonas = nacionalidad.PersonasNac.Count();
+
+            double total = 0.0;
+            foreach (var p in nacionalidad.PersonasNac)
+            {
+                total += p.Edad;
+            }
+
+            nacionalidad.PromEdad = (double)total / nacionalidad.CantPersonas;
+        }
     }
 }

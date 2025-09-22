@@ -39,8 +39,23 @@ namespace BE
 			get { return promEdad; }
 			set { promEdad = value; }
 		}
+        public Nacionalidad()
+        {
+            PersonasNac = new List<BE.Persona>();
+			promEdad = 0.0;
+			cantPersonas = 0;
+        }
 
-        public override string ToString()
+        private List<BE.Persona> personasNac = new List<BE.Persona>();
+
+		public List<BE.Persona> PersonasNac
+		{
+			get { return personasNac; }
+			set { personasNac = value; }
+		}
+
+		
+		public override string ToString()
         {
             return IdNacionalidad.ToString();
         }

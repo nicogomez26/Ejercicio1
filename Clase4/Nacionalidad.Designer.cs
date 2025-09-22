@@ -107,7 +107,7 @@
             this.grillaNac.AllowUserToAddRows = false;
             this.grillaNac.AllowUserToDeleteRows = false;
             this.grillaNac.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grillaNac.Location = new System.Drawing.Point(335, 97);
+            this.grillaNac.Location = new System.Drawing.Point(274, 84);
             this.grillaNac.Name = "grillaNac";
             this.grillaNac.ReadOnly = true;
             this.grillaNac.RowHeadersWidth = 51;

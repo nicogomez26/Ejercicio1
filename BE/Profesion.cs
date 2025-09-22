@@ -24,7 +24,16 @@ namespace BE
 			set { nombre_profesion = value; }
 		}
 
-        public override string ToString()
+		private List<BE.Persona> personasProf;
+
+		public List<BE.Persona> PersonasProf
+		{
+			get { return personasProf; }
+			set { personasProf = value; }
+		}
+
+
+		public override string ToString()
         {
             return IdProfesion.ToString();
         }
